@@ -1,0 +1,11 @@
+/* 
+this is the external styling sheet for html doc */
+#firstButton:hover{
+    background-color: green;
+}
+#secondButton:hover{
+    background-color: red;
+}
+#thirdButton:hover{
+    background-color: blue;
+}
