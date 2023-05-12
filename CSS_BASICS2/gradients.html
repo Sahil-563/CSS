@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* this is for linear gradient */
+        #div1{
+            border: 1px solid black;
+            width: 250px;
+            height: 250px;
+            background-image: linear-gradient(red,black);
+            background-image: linear-gradient(to right, blue,black);
+            background-image: linear-gradient(45deg, white,black);
+
+        }
+
+        /* this is for radial gradient */
+        #div2{
+            margin-top: 10px;
+            border: 1px solid black;
+            width: 250px;
+            height: 250px;
+            background-image: radial-gradient(red,black,blue,green);
+            background-image: radial-gradient(circle, blue,black,red,blue,green);
+            
+
+        }
+        #div3{
+            margin-top: 10px;
+            border: 1px solid black;
+            width: 250px;
+            height: 250px;
+            background-image: conic-gradient(red,black,blue,green);
+            
+
+        }
+    </style>
+</head>
+<body>
+    <div id = "div1"></div>
+    <div id = "div2"></div>
+    <div id = "div3"></div>
+</body>
+</html>
