@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <style>
+        .flexcontainer {
+            display: flex;
+            background-color: blue;
+            border: 3px solid green;
+            flex-direction: column;
+            flex-direction: row;
+            flex-direction: row-reverse;
+            flex-direction: column-reverse;
+            
+        }
+        .flexcontainer>div{
+            background-color: wheat;
+            padding: 20px;
+            margin: 20px;
+            width: 80px;
+            border: 3px solid black;
+
+            
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Creating a flexbox</h1>
+    <h2>Flex Direction </h2>
+    <div class="flexcontainer">
+        <div class="ele1">1</div>
+        <div class="ele2">2</div>
+        <div class="ele3">3</div>
+    </div>
+</body>
+</html>
