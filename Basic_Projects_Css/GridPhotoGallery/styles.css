@@ -17,7 +17,7 @@ body{
     justify-content: space-evenly;
     align-items: center;
     gap: 20px;
-    background: linear-gradient(to right , #041308,#0b3317);
+    background: linear-gradient(to right , #cbb8cf,#c475dc);
 
 }
 
@@ -29,12 +29,12 @@ body{
 
 .heading{
     font-size: 3rem;
-    color: white;
+    color: rgb(2, 1, 10);
     text-align: center;
 }
 .subheading{
     margin-top: 10px;
-    color: white;
+    color: rgb(4, 1, 7);
     text-align: center;
 }
 
