@@ -1,0 +1,22 @@
+.new{
+    width: 100vw;
+    height:100vh;
+    background-color: aqua;
+}
+@media (width<=600px) {
+    .new{
+        background-color: blue;
+    }
+    
+}
+
+@media (orientation: landscape) {
+    .new{
+        background-color: black;
+    }
+}
+/* @media (max-width:400px) {
+    .new{
+        background-color: bisque;
+    }
+} */
