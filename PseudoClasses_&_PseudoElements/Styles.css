@@ -1,0 +1,42 @@
+.primary-button:link{
+    color: red;
+    /* Shows the starting color of link before visiting */
+   
+}
+.primary-button:visited{
+    color: blue;
+    /* Shows the color of link after visiting */
+   
+}
+.primary-button:hover{
+    background-color: red;
+    
+}
+.primary-button:active{
+    background-color: green;
+/* shows how a button will look after clicking on it */
+}
+
+ul li:first-child{
+    background-color: aqua;
+}
+ul li:last-child{
+    background-color: aqua;
+}
+ul li:nth-child(4n+1){
+    background-color: aqua;
+}
+
+h2::first-letter{
+    color: brown;
+    font-size: 3rem;
+}
+h2::first-line{
+    color: brown;
+    font-size: 2rem;
+}
+h2::after{
+    content: 'New';
+    color: blue;
+}
+  
