@@ -1,0 +1,24 @@
+.body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.first{
+    margin: 80px auto;
+    width: 400px;
+    height: 400px;
+    background-color: black;
+}
+.second{
+    padding: 40px;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    
+}
+.second:hover{
+    transition: 0.3s ease;
+    transform: rotate(140deg);
+    transform-origin:bottom;
+}
