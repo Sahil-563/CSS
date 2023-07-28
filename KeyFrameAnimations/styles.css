@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.firstbox{
+    height: 400px;
+    width: 400px;
+    border: 2px solid white;
+}
+.secondbox{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    animation-name: circle;
+    animation-duration: 0.9s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes circle{
+    0%{
+        transform: translate(0,0);
+    }
+    25%{
+        transform: translate(200px,0);
+    }
+    50%{
+        transform: translate(200px,200px);
+    }
+    75%{
+        transform: translate(0,200px);
+    }
+}
